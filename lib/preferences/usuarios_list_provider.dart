@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import '../models/Usuarios.dart';
 
 class UsuariosListProvider extends ChangeNotifier {
-  // cambia los scans para que sea visible en la app
+  // clase provider per interactuar amb la base de dades
   List<Usuaris> scans = [];
 
   Future<Usuaris> nouScan(String name, String email, String address,

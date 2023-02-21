@@ -1,7 +1,7 @@
 // To parse this JSON data, do
 //
 //     final usuaris = usuarisFromMap(jsonString);
-
+// clase que agafa el json de usuario i s'ha transformat en dart
 import 'package:meta/meta.dart';
 import 'dart:convert';
 

@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Preferencias {
-  // todas las prefs segun el tipo
+  // shared preferences para guardar el usuario y contrasenya
   static late SharedPreferences _prefs;
 
   static String _nom = '';

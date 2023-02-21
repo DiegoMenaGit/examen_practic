@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class PersonaInfo extends StatelessWidget {
+  // aqui es mostraran els listile de cada persona quan es cliqui damunt
   const PersonaInfo({Key? key}) : super(key: key);
 
   @override
